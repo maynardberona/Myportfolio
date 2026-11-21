@@ -256,6 +256,7 @@ label .close_btn {
     color: #E9AD50;
     font-size: 25px;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 .about_container .text_section p {
@@ -286,6 +287,7 @@ label .close_btn {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 12px;
+    padding: 3%;
 }
 
 .skill_card {
@@ -317,13 +319,13 @@ label .close_btn {
 /* MOBILE */
 
 @media (max-width: 768px) {
-    .about_container {
-        flex-direction: column;
-        text-align: center;
-    }
+.about_container {
+    flex-direction: column;
+    text-align: center;
+}
 
-    .skills_container {
-        grid-template-columns: 1fr;
+.skills_container {
+    grid-template-columns: 1fr;
     }
 }
 
@@ -346,6 +348,7 @@ label .close_btn {
     letter-spacing: 1px;
     line-height: 30px;
     text-align: center;
+    padding: 50px;
 }
 
 .about_container .image_section {
@@ -354,7 +357,7 @@ label .close_btn {
 
 .about_container .image_section img {
     width: 100%;
-    transform: translateY(90px);
+    /*transform: translateY(90px);*/
 }
 
 /* Services Section */
@@ -456,8 +459,8 @@ label .close_btn {
 /* RESPONSIVE */
 
 @media (max-width: 768px) {
-    .why_container {
-        grid-template-columns: 1fr;
+.why_container {
+    grid-template-columns: 1fr;
     }
 }
 
@@ -618,12 +621,12 @@ label .close_btn {
 /* RESPONSIVE */
 
 @media (max-width: 768px) {
-    .contact_container {
-        flex-direction: column;
+.contact_container {
+    flex-direction: column;
     }
 
-    .contact_text {
-        padding: 20px 5px;
+.contact_text {
+    padding: 20px 5px;
     }
 }
 
